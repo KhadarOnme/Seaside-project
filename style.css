@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    position: relative;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+
+}
+.qoral h1{
+    font-size: 2.5em;
+    color: orange;
+
+}
+.qoral h2{
+    margin-left: 35px;
+    font-size: 14px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    font-size: 1.4em;
+    list-style: none;
+
+}
+#btn-reg{
+    background-color: orange;
+    border: none;
+    padding: 10px 29px;
+    color: white;
+    border-radius: 7px;
+
+}
+#btn-log{
+    background-color: transparent;
+    border: 2px solid gray;
+    padding: 10px 29px;
+    color: black;
+    border-radius: 7px;
+    margin-left: 10px;
+
+}
+.container{
+    background-image: url(pexels-pixabay-275033.jpg);
+    background-size: cover;
+    height: 529px;
+    
+    
+}
+.left{
+    width: 50%;
+    margin-left: 70px;
+    padding-top: 100px;
+}
+.left h1{
+    color: orange;
+    /* padding: 70px; */
+    font-size: 3em;
+    width: 80%;
+}
+.left p{
+    color: white;
+    margin-top: 5px;
+    width: 70%;
+    
+}
+#btn-yess{
+    background-color: orange;
+    color: white;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+.rigth{
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+    position: absolute;
+    bottom: -70px;
+}
+.box1{
+    background-color: gray;
+    display: flex;
+    width: 30%;
+    padding: 15px;
+
+}
+.qoral1{
+    margin-left: 55px;
+
+}
+.qoral1 h1{
+    font-size: 1.5em;
+    
+}
+.qoral1 h3{
+    font-size: 12px;
+    width: 80%;
+}
+.icon1{
+    font-size: 3em;
+    color: brown;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.box2{
+    background-color: gray;
+    display: flex;
+    width: 30%;
+    padding: 15px;
+
+}
+.qoral2{
+    margin-left: 55px;
+
+}
+.qoral2 h1{
+    font-size: 1.5em;
+    
+}
+.qoral2 h3{
+    font-size: 12px;
+    width: 80%;
+}
+.icon2{
+    font-size: 3em;
+    color: brown;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.box3{
+    background-color: gray;
+    display: flex;
+    width: 30%;
+    padding: 15px;
+
+}
+.qoral3{
+    margin-left: 55px;
+
+}
+.qoral3 h1{
+    font-size: 1.5em;
+    
+}
+.qoral3 h3{
+    font-size: 12px;
+    width: 80%;
+}
+.icon3{
+    font-size: 3em;
+    color: brown;
+    margin-top: 5px;
+    margin-left: 10px;
+}
